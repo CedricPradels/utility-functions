@@ -1,1 +1,1 @@
-export default (word) => word.replace(" ", "-").toLowerCase();
+export default (word) => word.split(" ").join("-");
